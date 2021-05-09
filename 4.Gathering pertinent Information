@@ -1,0 +1,44 @@
+# Gathering pertinent Information
+## Introduction
+As we are living in 21st century humans are mostly depended on technology. Technological is a major development in a society which has made our lifestyle simpler.Today robots are widely used in many fields and disciplines. A robot is a machine, especially one programmable by a computer, capable of carrying out a complex series of actions automatically. Robots can be guided by an external control device or the control may be embedded within. Robots may be constructed to take on human form but most robots are machines designed to perform a task with no regard how they look. For example, mobiles have made our life simpler by making communication among people living in far distances and vehicle is one more development which has made travelling simpler. 
+
+A robot is a machine especially one programmable by a computer capable of carrying out a complex series of actions automatically Robots can be guided by an external control device or the control may be embedded within. Robots may be constructed on the lines of human form, but most robots are machines designed to perform a task with no regard to their aesthetics.
+
+Here is small robot which can play musical instruments like tambourine called tambourine musical bot, which will help the user in playing tambourine. Tambourine Musical bot is basically a robot which helps a person in plating music by tambourine without human interference.
+
+## Pertinent Information
+Music can be played in many ways using tambourine but major requirement is instrument, tune input and a servo motor for movement of sticks which plays require tune. Therefore, there are various ways in which we can play music using tambourine. But in most of the machines are designed in such a way where the instrument is fixed and sticks are handled by servo motor. 
+
+
+### Some similar models:
+1. https://youtu.be/mLXJUJZD_WY
+2. https://youtu.be/ST1FOz3qKdg
+3. ![WhatsApp Image 2020-02-05 at 2 11 09 AM (1)](https://user-images.githubusercontent.com/60174140/73835240-ed141d00-47c1-11ea-8c13-1ac496bc5916.jpeg)
+
+
+
+### References
+Some information about how to make a musical drum bot
+
+1. [Drumming bot](https://www.instructables.com/id/How-to-make-your-own-Drumming-Bot/)
+
+2. [Video on Musical Drum bot](https://www.youtube.com/watch?v=g_7nNvIQnks)
+
+3. [Article on musical drum bot](https://makezine.com/projects/make-robotic-drum-using-arduino-uno/)
+
+4. [Drum bot using Arduino](https://www.instructables.com/id/Simple-Arduino-Drum-Robot/)
+
+5. [DrumCube](https://www.instructables.com/id/DrumCube-an-Arduino-Robot-Drummer/)
+
+### Materials Required
+Tools Required:![Tools](https://makezine.com/wp-content/uploads/2015/06/Intro_2_Parts.jpg) 
+### List of components needed:
+|Sl.No|Components|Uses|Links|
+|-----|----------|----|-----|
+|1.|Arduino Mega 2560|It is the Microprocessor,graphics|https://youtu.be/X-ic8TvpU3o|
+|2.|Servo Motors|Device used to rotate,turn and push|https://youtu.be/0UB2DDZaUSY|
+|3.|DC Motor|Used to rotate|https://youtu.be/0UB2DDZaUSY|
+|4.|Breadboard|Used for making connections|https://youtu.be/6WReFkfrUIk|
+|5.|Arduino IDE|Used to write the required program and uplode it into our arduino|---|
+|6.|Jumper wires |Used for connections||
+|7.|Adapter|For external supply||
