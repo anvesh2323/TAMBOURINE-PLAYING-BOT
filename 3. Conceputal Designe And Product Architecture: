@@ -1,0 +1,92 @@
+
+## 2.1 Establishing Functions:
+|Sl.no|Functions|
+|-----|---------|
+|1.|Sense the instrument|
+|2.|Take user input|
+|3.|No. of tunes to be played|
+|4.|No. of times the tune to be played|
+|5.|Indicate after each tune played|
+
+
+### 2.2 Function Tree:
+![Screenshot (15)](https://user-images.githubusercontent.com/60174140/73930307-28c6e980-488b-11ea-9bf5-d083ee3254c1.png)
+
+
+### 2.3 Function Clustring:
+![Screenshot (14)](https://user-images.githubusercontent.com/60174140/73930318-2d8b9d80-488b-11ea-8070-a480a5db033f.png)
+
+
+2.3.1 Sub System Identified:
+1.Instrument handling
+2.Drumstick handling
+3.User input
+4.Indication
+
+
+### Establishing Means-Morphological chart
+|Sl.no|Functions|Mean1|mean2|mean3|mean4|
+|-----|---------|-----|-----|-----|-----|
+|1.|Instrument holder|![stand](https://user-images.githubusercontent.com/59958253/73646888-5e5baf00-46a0-11ea-96ce-6c7295d6be0d.jpeg)Stand|![clamp](https://user-images.githubusercontent.com/59958253/73644371-40d81680-469b-11ea-9a29-66baf34727ad.jpeg)Clamp|||
+|2.|Drumsticks holder|![clips](https://user-images.githubusercontent.com/59958253/73641602-42eba680-4696-11ea-9309-0f2a8540c37a.jpeg)Clips|![stickholder](https://user-images.githubusercontent.com/59958253/73642111-200dc200-4697-11ea-83e2-20bdb9718f8a.jpeg)Holder|![arm](https://user-images.githubusercontent.com/59958253/73644875-366a4c80-469c-11ea-9f2f-68290ef18419.jpeg)Robotic arm||
+|3.|Indication|![LED](https://user-images.githubusercontent.com/59958253/73643830-3406f300-469a-11ea-85bc-2894b6a73a8f.jpeg)LED|![Buzzer](https://user-images.githubusercontent.com/59958253/73642857-7af3e900-4698-11ea-9a81-c97a04e8b69c.jpeg)Buzz|![speaker](https://user-images.githubusercontent.com/59958253/73645267-f6f03000-469c-11ea-8201-b6533a96237c.jpeg)Speaker|![Displaypad](https://user-images.githubusercontent.com/59958253/73642659-16388e80-4698-11ea-985a-48b585227941.jpeg)Screen|
+|4.|User input|![Touchpad](https://user-images.githubusercontent.com/59958253/73642648-133d9e00-4698-11ea-93b2-bc15d67869ff.jpeg)Buttons|![touch](https://user-images.githubusercontent.com/59958253/73644871-3407f280-469c-11ea-9b74-f5f3f88cf794.jpeg)Touch pad|![voiceinput](https://user-images.githubusercontent.com/59958253/73646883-5b60be80-46a0-11ea-98ce-2137b70d7f05.jpeg)Voice input|![switch](https://user-images.githubusercontent.com/59958253/73644378-45043400-469b-11ea-89e4-3d363f5fe961.jpeg)Switch pad|
+|5.|Stick -----|![snailcam](https://user-images.githubusercontent.com/59958253/73644368-3e75bc80-469b-11ea-9309-8aca7affee5a.jpeg)Snail cam|![starcam](https://user-images.githubusercontent.com/59958253/73647122-e04bd800-46a0-11ea-9f21-2172d0f2405c.jpeg)Star cam|![Servo](https://user-images.githubusercontent.com/59958253/73642154-3287fb80-4697-11ea-97cd-cc4e5118a2dd.jpeg)Servo motor|![Stepper](https://user-images.githubusercontent.com/59958253/73643850-3ec18800-469a-11ea-98aa-b5eeeb30c7ca.jpeg)Stepper motor|
+
+
+### Conceptional Design:
+
+1. ![c5b6a164-4bd4-4537-86c8-336718b1eed3](https://user-images.githubusercontent.com/60174140/73916891-57bd7980-48e4-11ea-98e9-e106598d0e1d.jpg)
+2.![804d8d4a-9a5f-4d99-b2db-d623e5529989](https://user-images.githubusercontent.com/60174140/73916906-5f7d1e00-48e4-11ea-904a-9a5391cc6cf6.jpg)
+3.![WhatsApp Image 2020-02-06 at 12 59 27 AM](https://user-images.githubusercontent.com/60174140/73921575-76882580-487c-11ea-8f7f-930d46c22e3e.jpeg)
+4..![290b1b75-2709-4195-b9db-1c715e06b2c2](https://user-images.githubusercontent.com/60174140/73916900-5ab86a00-48e4-11ea-879e-b1ae5c242daa.jpg)
+
+# Concept Selection Template
+
+## Below are the identified and prioritized objectives
+1. No. of beats per minute.
+
+2. Working of device.
+
+3. Audio output.
+
+4. Cost.
+
+
+
+## PUGH Chart
+|Objectives| Weightage| Designe Idea 1.|Designe Idea 2.|Designe Idea 3.|Designe Idea 4.|
+|----------|----------|----------------|---------------|---------------|---------------|
+|No. of beats per minute|6|Datum|-|+|-|
+|Working of device|8|Datum|-|+|+|
+|Audio output|7|Datum|-|+|-|
+|Cost|5|Datum|+|-|-|
+|+Score| | |5|21|8|
+|-Score| | |-21|-5|-18|
+|Total| | |-16|16|10|
+
+The Best Concept selected is : **_Design Idea 3_**
+***
+
+
+## Justification:
+
+|Design Idea No.|Objective|Score Given|Justification|
+|---|--|--|--|
+|**_2._**|Number of beats| -6|Beats will be less due to the presence of only one drumstick.|
+| |Working of device|-8| Due to the complexity of the working of the device.|
+| |Audio effect|-7|Sound produced is less because force produced by the stick on drum will be less.|
+| |Cost|5| Since we are using less number of Servo motors i.e, only one.|
+| |
+|**_3._**|Number of beats| 6|Number of Beats will be more since we are using two drumsticks to make the beats.|
+| |Working of device|8| Working of the device will be Easy because we are using directly servo motor because of which we can set precise angle.|
+| |Audio effect|7|More sound is produced because two sticks are used to beat the drums.|
+| |Cost|-5| Cost will be more because we are using two servo motors.|
+| |
+|**_4._**|Number of beats| -6|Number of Beats will be less because cam takes more time to make one complete revolution.|
+| |Working of device|8| Easy working of the device because here we use only cam and holder.|
+| |Audio effect|-7|Audio effect will be less due to less number of beats.|
+| |Cost|-5| Cost will be more since we are using robot hand to hold the instrument. |
+
+
+
