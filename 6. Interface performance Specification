@@ -1,0 +1,30 @@
+Sub-System Lists:
+1. Instrument Holder 
+2. Drumstick Holder
+3. User Input
+4. Indication
+
+|Instrument Holder|Drumstick Holder|User Input |Indication|
+|-----------------|----------------|-----------|----------|
+|Material Interaction|-|-|-|
+|Data Interactions|-|-|-
+|Spatial Interactions|drumstick need to beat on instrument|-|-|
+
+|Drumstick Holder|User Input|Indication|Instrument Holder|
+|----------------|-|-|-|
+|Material  Interactions|-|-|-|
+|Data Interactions|-|-|-|
+|Spatial Interactions|-|-|there will be a connection between these two unit at the time of beats|
+
+|User Input|Indication|Instrument Holder|Drumstick Holder|
+|-|-|-|-|
+|Material Interactions|-|-|-|
+|Data Interactions|completion of tune is given data input|-|User-Interaction Unit will give the instructions in the form of digital signals to the drumStick  based on that the sticks will move|
+|Spatial Interactions|instruction to the user given by indicatin|-|-|
+
+|Indication|Instrument Holder|Drumstick Holder|User Input|
+|-|-|-|-|
+|Material Interactions|-|-|-|
+|Data Interactions|-|HOLDING unit works based on the instruction passed by data given|-|
+|Spatial Interactions|-|-|-|
+
