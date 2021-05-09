@@ -1,0 +1,8 @@
+| Sl.No | Functions | Specifications |
+|--|--|--|
+| 1 | Stick rotations | The drumsticks should rotate from 0' to 45' at regular intervals. |
+| 2 | Option Display | Displaying the 2 types of tunes |
+| 3 | Tune Selection | Take one input at a time from the user for selecting the input. |
+| 4 | Expected Repetitions| Displaying 2 or 4 as of options for selecting the number of repetitions. |
+| 5 | Repetition selection | Playing the selected tune for ' 2 or 4 ' repetitions as per the input given by the user |
+| 6 | Indicate process completion | Blinking LED's |
