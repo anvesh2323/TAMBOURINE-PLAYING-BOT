@@ -1,0 +1,128 @@
+# 4.a. 3D MODELING.
+## Sub-Systems.
+### 4.a.1. Stick handling unit.
+![Screenshot (79)](https://user-images.githubusercontent.com/60174140/79551755-f685f500-804e-11ea-938f-f33be6def4cc.png)
+### 4.a.2. Drum holding unit.
+![Screenshot (82)](https://user-images.githubusercontent.com/60174140/79551635-c8a0b080-804e-11ea-823c-d8f9c79adf55.png)
+### 4.a.3. User interface.
+![Screenshot (81)](https://user-images.githubusercontent.com/60174140/79551457-8c6d5000-804e-11ea-8145-bfa59e66f7cf.png)
+### 4.a.4. Indication.
+![Screenshot (80) (1)](https://user-images.githubusercontent.com/60174140/79551239-3ef0e300-804e-11ea-82ca-1a91afea21e1.png)
+ ## 4.a.5 Complete 3D Model.
+![Screenshot (78)](https://user-images.githubusercontent.com/60174140/79551930-351baf80-804f-11ea-9185-26fcae391865.png)
+# 4.b Circuit Diagrams.
+
+### 4.b.1. Stick Rotating  unit.
+![servo2](https://user-images.githubusercontent.com/59957900/79550223-e705ac80-804c-11ea-8ca1-c536b8f03e41.jpg)
+
+### 4.b.2 User input.
+![push button](https://user-images.githubusercontent.com/59957900/79550195-dc4b1780-804c-11ea-9407-1599180c1577.jpg)
+
+### 4.b.3 Indication.
+![display](https://user-images.githubusercontent.com/59957900/79550165-d0f7ec00-804c-11ea-834e-43244e084b50.jpg)
+
+![led2](https://user-images.githubusercontent.com/59957900/79550175-d48b7300-804c-11ea-8631-f1139243299b.jpg)
+
+
+## 4.b.4 Complete Circuit Diagram.
+![circuit](https://user-images.githubusercontent.com/59957900/79550137-c89fb100-804c-11ea-9f2b-566c444aedfb.jpg)
+
+# 4.c Flow-Chart.
+### 4.c.1 Flowchart for Whole body
+![flowchart](https://user-images.githubusercontent.com/59957900/79550470-377d0a00-804d-11ea-8fb3-dd4250a18c38.jpeg)
+
+
+### 4.c.2 User input Flowchart
+![UserFlowchart](https://user-images.githubusercontent.com/59957900/79550375-1ae0d200-804d-11ea-843b-5e1e955272c6.png)
+<br><br><br>
+# 4.d Bill of materials.
+
+|Sl.NO|Parts Name|Materials with which it is made|Specification of the Part|Quantity|Fabrication|
+|-----|----------|--------|-------|---------|------------|
+|1.|Box|foam sheet|L:15in B:10in H:4in T:0.4724in|1|Cutting|
+|2.|L clamp|Steel|1/2in|18|N/A|
+|3.|Screw|Steel|M4 10mm|36|N/A|
+|4.|Hinge|Steel|1x2in|1|N/A|
+|5.|Nuts|Steel|M4 30mm|28|N/A|
+|6.|Nuts|Steel|M4 15mm|10|N/A|
+|7.|Nuts|Steel|M8 75mm|2|N/A|
+|8.|Nuts|Steel|M2 15mm|12|N/A|
+|9.|Nuts|Steel|M4 25mm|6|N/A|
+|10.|Micro controller|arduino uno|mg90|1|N/A|
+|11.|Servo|N/A|MG 90|2|N/A|
+|12.|Drum|N/A|N/A|1|N/A|
+|13.|Instrument stand|foam board|l=15inch,b=4inch|2|cutting|
+|14.|Servo holder|acrylic sheet|N/A|2|
+|15.|Jumper wires|N/A|male to female|30|N/A|
+|16.|Bread Bord|N/A|N/A|1|N/A|
+|17.|LED|N/A|N/A|4|N/A|
+|18.|Buttons|N/A|N/A|5|N/A|
+|19.|Display|16*2|I2C LCD display|1|N/A|
+|20.|Sticks|plastic|N/A|2|N/A|
+<br><br>
+
+# 4.e.1  Battery Sizing :
+
+Total Servo motors required 	= 2
+
+Current Drawn by 1 servo 	= 700mA
+
+Total current drawn 		= 1400mA
+
+Working Hours 			= 2
+
+Current Rating = 1400 * 2
+        
+	            = 2800 mA-h
+
+<br><br>
+
+# 4.e.2  Motor Sizing :
+
+WEIGHT OF 1 STICK               =20g
+
+LENGTH  OF STICK   =12.5inches    
+
+                   =31.75cm
+
+TORQUE             = weight*length           
+                  
+          =20*(31.75/2) 
+         
+          = 317.5g-cm 
+ 
+          = 0.317kg-cm
+
+FACTOR OF SAFETY                =1.5
+
+Final torque                    =0.317*1.5
+
+                                =0.4572kg-cm
+
+### MOTOR REQUIRED FOR ONE STICK :  MG90-S
+
+WEIGHT OF SET-UP(SERVO+1 STICK) =(15+20)g 
+
+                                =35g
+
+LENGTH OF SHAFT                 =2 cm
+
+TORQUE = weight*length          =20*2 
+
+                                =40 g-cm  
+
+                                =0.04 kg-cm
+
+FINAL TORQUE                    =0.04*1.5 
+
+                                =0.06 kg-cm
+
+
+# 4.f 3D Model.
+[team 2 [tamburine].zip](https://github.com/P-Division-2019-2020-Even/Repo-01/files/4492047/team.2.tamburine.zip)
+
+
+
+
+
+
