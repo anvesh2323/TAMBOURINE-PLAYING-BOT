@@ -1,0 +1,70 @@
+# TAMBOURINE PLAYING BOT
+**Need statement:** A Instrumentalist demands for a Tambourine playing bot to help him out in his concerts, so he wishes for a musical bot.
+
+### 1.1.Problem Definition
+|Si.No|Question|Answer|Objective/Function/constraint |
+|-----|--------|------|------------------------------|
+|1.|What should the be the cost of the machine?|Not more than 3000 rupees|Constraint|
+|2.|What should be the size of the machine?|1.5x1.5x1 feets|Constraint| 
+|3.|Machine should be Fixed or Portable?|Portable|Objective|
+|4.|How long the machine should play the music?|3 hours|Constraint|
+|5.|How many no. of tune to be played?|Two tunes|Function|
+|6.|How many no. of times the tune to be repeated?|Twice|Function|
+|7.|Should the machine be handled manually or automatic?|Manually|Objective|
+|8.|How should be the machine be charged?|Power supply|Objective|
+|9.|Should there be a holder provided?|Yes|Function| 
+|10.|Should the machine be user friendly?|Yes|Objective|
+
+
+### 1.2 Basic Survey and Requirements
+|Observations from Surveys|Requirements|
+|-------------------------|------------|
+|Machine handling|Mobile|
+|No. of tunes|It should play 1-2 tunes|
+|Cost|It should be built within the specified cost|
+|Size| 1.5x1.5x1 feet|
+
+
+### 1.3 IDENTIFYING CLIENT'S OBJECTIVES
+|Sl.No|Objectives|
+|-----|----------|
+|1.|Machine should be portable|
+|2.|Machine should be user friendly|
+|3.|Audio Output|
+
+
+**_Problem Definition 1.1:_** Design a manually handled machine which is portable, which should be provided with a power supply.
+
+
+### 1.4 IDENTIFY CONSTRAINTS
+|Sl.No|Constraints|
+|-----|-----------|
+|1.|The cost of machine should not exceed Rs.3000|
+|2.|The dimension of the machine should be about 2 cubic feet|
+|3.|The machine should work for 3 hours continuously|
+|4.|The machine should weigh around to 5-6 Kg|
+|5.|Power supply|
+
+
+**_Problem definition 1.2:_** Design a Musical bot which costs about Rs.3000, which is of the dimension 2 cubic feet. The machine should work for 3 hours.
+
+
+
+### 1.5 ESTABLISH FUNCTION
+|Sl.No|Function|
+|-----|--------|
+|1.|There should be  holder provided to hold the instrument|
+|2.|Display the tunes|
+|3.|User selecting the tune|
+|4.|Playing the selected tune|
+|5.|Display the no. of times the tune to be played|
+
+
+**_Problem definition 1.3:_** Design a musical bot which plays a tambourine. The bot should be handled manually and should be operated with power supply. The bot cost shouldn't exceed the cost of 3000 and size of (1.5x1.5x1)feet. The bot should be able to play for 3 hours. The bot should provide the option to choose the tune to be played. The bot should be portable. It should be able to play 2 tunes repeating twice.
+
+
+
+
+
+
+
